@@ -14,6 +14,7 @@ function randomEatery(){
      
     let random = Math.floor(Math.random() * (3 - 0) + 0)
     newLink.href = foodArr[random]
+    newLink.target = '_blank'
     newLink.textContent = foodNameArr[random]
 
     randomLink.appendChild(newLink)
